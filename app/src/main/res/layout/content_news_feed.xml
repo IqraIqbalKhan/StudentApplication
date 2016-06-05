@@ -9,11 +9,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.iqrakhan.studentapplication.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="com.example.iqrakhan.studentapplication.NewsFeedActivity"
+    tools:showIn="@layout/app_bar_news_feed">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ListView
+        android:id="@+id/listview_news"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:divider="@android:color/transparent"/>
+
 </RelativeLayout>

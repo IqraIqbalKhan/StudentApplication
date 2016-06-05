@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">StudentApplication</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_news_feed">NewsFeedActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_classes">ClassesActivity</string>
+    <string name="title_activity_class_entry">ClassEntryActivity</string>
 </resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textview_id"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="10dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textview_classname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSCS"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/textview_id"/>
+    <TextView
+        android:id="@+id/textview_semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st Semester"
+        android:layout_below="@+id/textview_classname"
+        android:layout_toRightOf="@+id/textview_id"/>
+
+    <TextView
+        android:id="@+id/textview_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-2020"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>
